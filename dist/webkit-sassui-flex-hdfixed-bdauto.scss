@@ -1,0 +1,15 @@
+/*webkit-sassui-flex-hdfixed-bdauto Start*/
+
+.webkit-sassui-flex-hdfixed-bdauto {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    >.hd {
+    }
+    >.bd {
+        flex: 1;
+    }
+}
+
+
+/*webkit-sassui-flex-hdfixed-bdauto End*/

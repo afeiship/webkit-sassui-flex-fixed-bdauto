@@ -1,0 +1,20 @@
+@import "../dist/webkit-sassui-flex-hdfixed-bdauto.scss";
+*{margin:0;padding:0;-webkit-margin-before:0;-webkit-margin-after:0;}
+html,body{
+  height:100%;
+}
+.test-webkit-sassui-flex-hdfixed-bdauto{
+  border:1px solid red;
+
+}
+
+
+.box1{
+  >.hd{
+    height: 120px;
+    background: #eee;
+  }
+  >.bd{
+    background: salmon;
+  }
+}

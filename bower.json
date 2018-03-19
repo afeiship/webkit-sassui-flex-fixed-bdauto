@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-flex-hdfixed-bdauto",
+  "description": "webkitSassuiFlexHdfixedBdauto",
+  "main": [
+    "dist/webkit-sassui-flex-hdfixed-bdauto.css",
+    "dist/webkit-sassui-flex-hdfixed-bdauto.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "flex-hdfixed-bdauto"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
