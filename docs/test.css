@@ -2,7 +2,6 @@
 .webkit-sassui-flex-hdfixed-bdauto {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .webkit-sassui-flex-hdfixed-bdauto > .bd {
@@ -23,6 +22,10 @@ html, body {
 
 .test-webkit-sassui-flex-hdfixed-bdauto {
   border: 1px solid red;
+}
+
+.box1 {
+  height: 100%;
 }
 
 .box1 > .hd {
