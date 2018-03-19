@@ -3,6 +3,13 @@
 .webkit-sassui-flex-hdfixed-bdauto {
     display: flex;
     flex-direction: column;
+
+    &[data-scroll=true]{
+      >.bd{
+        overflow-y: scroll;
+      }
+    }
+
     >.hd {
     }
     >.bd {

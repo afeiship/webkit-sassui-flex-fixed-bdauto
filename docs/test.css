@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+.webkit-sassui-flex-hdfixed-bdauto[data-scroll=true] > .bd {
+  overflow-y: scroll;
+}
+
 .webkit-sassui-flex-hdfixed-bdauto > .bd {
   flex: 1;
 }
@@ -30,9 +34,19 @@ html, body {
 
 .box1 > .hd {
   height: 120px;
-  background: #eee;
+  background: dodgerblue;
+  color: #fff;
+  text-align: center;
+  line-height: 120px;
+  font-size: 40px;
 }
 
 .box1 > .bd {
-  background: salmon;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.box1 > .bd p {
+  margin-bottom: 10px;
 }

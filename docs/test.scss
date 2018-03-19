@@ -8,14 +8,22 @@ html,body{
 
 }
 
-
 .box1{
   height: 100%;
   >.hd{
     height: 120px;
-    background: #eee;
+    background:dodgerblue;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 40px;;
   }
   >.bd{
-    background: salmon;
+    padding:20px;
+    font-size: 14px;
+    line-height: 22px;
+    p{
+      margin-bottom: 10px;
+    }
   }
 }
