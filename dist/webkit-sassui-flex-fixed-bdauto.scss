@@ -1,6 +1,6 @@
 /*webkit-sassui-flex-hdfixed-bdauto Start*/
 
-.webkit-sassui-flex-hdfixed-bdauto {
+.webkit-sassui-flex-fixed-bdauto {
     display: flex;
     flex-direction: column;
 
@@ -10,8 +10,6 @@
       }
     }
 
-    >.hd {
-    }
     >.bd {
         flex: 1;
     }

@@ -1,9 +1,9 @@
 {
-  "name": "webkit-sassui-flex-hdfixed-bdauto",
-  "description": "webkitSassuiFlexHdfixedBdauto",
+  "name": "webkit-sassui-flex-fixed-bdauto",
+  "description": "Header fixed & body auto use flex layout.",
   "main": [
-    "dist/webkit-sassui-flex-hdfixed-bdauto.css",
-    "dist/webkit-sassui-flex-hdfixed-bdauto.scss"
+    "dist/webkit-sassui-flex-fixed-bdauto.css",
+    "dist/webkit-sassui-flex-fixed-bdauto.scss"
   ],
   "authors": [
     "afei"

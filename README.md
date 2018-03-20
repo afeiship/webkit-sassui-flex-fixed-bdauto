@@ -1,5 +1,5 @@
 # webkit-sassui-flex-hdfixed-bdauto
-> webkitSassuiFlexHdfixedBdauto
+> Header fixed & body auto use flex layout.
 
 ## usage:
 + https://afeiship.github.io/webkit-sassui-flex-hdfixed-bdauto/

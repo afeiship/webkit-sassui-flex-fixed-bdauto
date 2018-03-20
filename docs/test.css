@@ -1,14 +1,14 @@
 /*webkit-sassui-flex-hdfixed-bdauto Start*/
-.webkit-sassui-flex-hdfixed-bdauto {
+.webkit-sassui-flex-fixed-bdauto {
   display: flex;
   flex-direction: column;
 }
 
-.webkit-sassui-flex-hdfixed-bdauto[data-scroll=true] > .bd {
+.webkit-sassui-flex-fixed-bdauto[data-scroll=true] > .bd {
   overflow-y: scroll;
 }
 
-.webkit-sassui-flex-hdfixed-bdauto > .bd {
+.webkit-sassui-flex-fixed-bdauto > .bd {
   flex: 1;
 }
 
@@ -24,7 +24,7 @@ html, body {
   height: 100%;
 }
 
-.test-webkit-sassui-flex-hdfixed-bdauto {
+.test-webkit-sassui-flex-fixed-bdauto {
   border: 1px solid red;
 }
 
