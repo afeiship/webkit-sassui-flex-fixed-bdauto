@@ -1,4 +1,4 @@
-/*webkit-sassui-flex-hdfixed-bdauto Start*/
+/*webkit-sassui-flex-fixed-bdauto Start*/
 .webkit-sassui-flex-fixed-bdauto {
   display: flex;
   flex-direction: column;
@@ -8,11 +8,15 @@
   overflow-y: scroll;
 }
 
+.webkit-sassui-flex-fixed-bdauto[data-scroll=true][data-auto=true] > .bd {
+  overflow-y: auto;
+}
+
 .webkit-sassui-flex-fixed-bdauto > .bd {
   flex: 1;
 }
 
-/*webkit-sassui-flex-hdfixed-bdauto End*/
+/*webkit-sassui-flex-fixed-bdauto End*/
 * {
   margin: 0;
   padding: 0;
