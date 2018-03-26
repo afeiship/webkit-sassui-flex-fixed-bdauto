@@ -1,21 +1,22 @@
 /*webkit-sassui-flex-fixed-bdauto Start*/
 
 .webkit-sassui-flex-fixed-bdauto {
-    display: flex;
-    flex-direction: column;
-    &[data-scroll=true] {
-        >.bd {
-            overflow-y: scroll;
-        }
-        &[data-auto=true] {
-            >.bd {
-                overflow-y: auto;
-            }
-        }
-    }
+  display: flex;
+  flex-direction: column;
+  &[data-scroll=true] {
     >.bd {
-        flex: 1;
+      overflow-y: scroll;
     }
+    &[data-auto=true] {
+      >.bd {
+        overflow-y: auto;
+      }
+    }
+  }
+
+  >.bd {
+    flex: 1;
+  }
 }
 
 
